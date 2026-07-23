@@ -1,0 +1,20 @@
+# PrivLens — Python dependencies
+# Core ML
+torch
+torchvision
+tensorflow
+ultralytics          # YOLOv8 training / inference
+scikit-learn
+
+# Data prep / annotation handling
+pycocotools          # COCO RLE mask decoding
+opencv-python
+Pillow
+imageio
+numpy
+pandas
+openpyxl             # reading Ground Truth .xlsx label sheets
+PyYAML
+
+# Visualization
+matplotlib

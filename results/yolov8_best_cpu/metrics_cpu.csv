@@ -1,0 +1,11 @@
+metric,value
+split,test2017
+images,2989
+TP,1908
+FP,0
+FN,1081
+TN,0
+accuracy,0.638341
+precision,1.000000
+recall,0.638341
+f1,0.779253

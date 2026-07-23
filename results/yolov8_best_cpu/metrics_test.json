@@ -1,0 +1,25 @@
+{
+  "simple": {
+    "split": "test",
+    "images": 2989,
+    "TP": 1911,
+    "FP": 0,
+    "FN": 1078,
+    "TN": 0,
+    "accuracy": 0.639344262295082,
+    "precision": 1.0,
+    "recall": 0.639344262295082,
+    "f1": 0.78
+  },
+  "yolo_official": {
+    "metrics/precision(B)": 0.11815232135457683,
+    "metrics/recall(B)": 0.2,
+    "metrics/mAP50(B)": 0.06859090909090906,
+    "metrics/mAP50-95(B)": 0.048481818181818175,
+    "metrics/precision(M)": 0.11815232135457683,
+    "metrics/recall(M)": 0.2,
+    "metrics/mAP50(M)": 0.06859090909090906,
+    "metrics/mAP50-95(M)": 0.04449545454545454,
+    "fitness": 0.09297727272727271
+  }
+}

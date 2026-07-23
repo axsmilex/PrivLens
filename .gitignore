@@ -1,0 +1,51 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+
+# --- Datasets (never commit raw images or labels derived from them) ---
+data/
+datasets/
+images/
+*.jpg
+*.jpeg
+*.png
+!results/figures/*.png
+*.cache
+
+# --- Model checkpoints & runs (trained models tracked deliberately in models/) ---
+runs/
+weights/
+ckpt/
+*.torchscript
+*.onnx
+
+# --- Large annotation dumps ---
+instances_*.json
+predictions.json
+
+# --- Java / Android ---
+*.class
+*.apk
+*.aab
+build/
+.gradle/
+local.properties
+google-services.json
+
+# --- IDE / OS ---
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+~$*
+*.tmp
+
+# --- Secrets ---
+*.pem
+*.key
+.env

@@ -1,0 +1,22 @@
+path: I:/RIT/GA/BIV-Priv-SEG-NEW
+train: splits/train.txt
+val: splits/val.txt
+test: splits/test.txt
+
+names:
+  0: local_newspaper
+  1: bank_statement
+  2: bills_or_receipt
+  3: business_card
+  4: condom_box
+  5: credit_or_debit_card
+  6: doctors_prescription
+  7: letters_with_address
+  8: medical_record_document
+  9: pregnancy_test
+  10: empty_pill_bottle
+  11: tattoo_sleeve
+  12: transcript
+  13: mortgage_or_investment_report
+  14: condom_with_plastic_bag
+  15: pregnancy_test_box

@@ -1,0 +1,22 @@
+# # Choose ONE block below (binary OR multi-class)
+
+# nc: 1
+# names: [sensitive]
+
+path: C:/RIT/GA/BIV-Priv-Seg/Yolov8n
+train: images/train2017
+val:   images/val2017
+test:  images/test2017
+
+# Multi-class segmentation
+nc: 28
+names:
+  [a105_face_all, a106_address_current_all, a107_address_home_all, 
+  a108_license_plate_all, a109_person_body, a110_nudity_all, a111_name_all,
+   a18_ethnic_clothing, a24_birth_date, a26_handwriting, a29_ausweis, a30_credit_card, 
+   a31_passport, a32_drivers_license, a33_student_id, a35_mail, a37_receipt, a38_ticket, 
+   a39_disability_physical, a43_medicine, a49_phone, a70_education_history, a73_landmark,
+    a7_fingerprint, a82_date_time, a85_username, a8_signature, a90_email]
+
+# labels were previously remapped to 0 (binary), re-generate YOLO-seg masks/labels
+#  without the “all to zero” step so polygons keep their original class ids.

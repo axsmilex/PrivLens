@@ -1,0 +1,16 @@
+bank_statement
+bills_or_receipt
+business_card
+condom_box
+condom_with_plastic_bag
+credit_or_debit_card
+doctors_prescription
+empty_pill_bottle
+letters_with_address
+local_newspaper
+medical_record_document
+mortgage_or_investment_report
+tattoo_sleeve
+transcript
+pregnancy_test_box
+pregnancy_test
